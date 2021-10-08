@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_allfound"
+            android:icon="@drawable/ic_call_to_action_black_24dp"
+            android:title="All Found documents" />
+        <item
+            android:id="@+id/nav_addnew"
+            android:icon="@drawable/ic_add_box_black_24dp"
+            android:title="Add new Document" />
+        <item
+            android:id="@+id/nav_My_document"
+            android:icon="@drawable/ic_all_inclusive_black_24dp"
+            android:title="My document" />
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="More about us" />
+
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Logout" />
+    </group>
+</menu>
